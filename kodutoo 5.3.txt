@@ -1,0 +1,15 @@
+1 andmestruktuur
+
+binaarsel otsingupuul on juursõlm alguspunktiks.sõlmedel võib olla kuni kaks alamsõlme millel
+vasakpoole on väiksem ja parempoolne väiksem. Lehtsõlm on sõlm millel puuduvad alamsõlmed
+
+2 Tasakaalustamine
+
+kui Binaar otsingupuu on tasakaalustamata võib ta kõrgus muutuda suureks ja otsingukiirus
+halvimal juhul olla O(n). Tasakaalustada on vaja,et säiliks tõhus otsingukiirus O(log n).
+
+Tasakaalustamiseks kasutatakse AVL-puud kus parem ja vasak alampuu vahe saab ollla maksimaalselt 1,
+või punane must puukus igal sõlmel on värv mis peavad olema kindlate reeglitega määratud.
+kasutatakse ka splay puud kus hiljutai otsitud elemendid on lähemal juursõlmele.
+
+

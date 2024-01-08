@@ -1,0 +1,17 @@
+1 struktuur
+
+mõlemad on täielikud binaarpuud.
+min heapis on juursõlm väikseim arv kuhjas ja kasutatakse tihti prioriteetjärjekorra implementeerimiseks.
+max heapis on juursõlm on suurim arv ja kasutatakse maksimaal elemendi kiireks leidmiseks.
+
+2 aja ja ruumi kompleksus
+ajaline kompleksus on mõlemal O(log n)
+
+ruumi kompleksus on mõlemal O(n)
+
+3 sorteerimine ja prioriteedjärjekord
+
+kumbki ei pruugi olla täielikult sorteeritud siis saame ikka arvata et mida kaugemale me liigume juursõlmest siis seda väiksemaks-suuremaks muuduvad väärtused
+
+
+mõlemat saab kasutada prioriteedi järjekorra implementeerimiseks kuna meil on vaja elemendid oleks mingis järjestuses.

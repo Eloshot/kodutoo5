@@ -1,0 +1,23 @@
+1 punase musta puu adnmesturktuur
+
+ta sarnaneb binaarse puu strutuuriga aga igal sõlmel on lisaks seotud ka värviga
+igast lehest peab olema tee juureni ja kõik teed peavad läbima sam arv musti sõlmesid
+punastel sõlmedel ei saa olla punaseid alamsõlmesid.
+must punane puu automaatselt tasakaalusta ennast peale igat operatsiooni
+
+2 võrdlus
+
+must punane puu on alati tasakaalus aga binaarne puu ei pruugi olla kui
+talle ei rakendata tasakaalustamis operatsioone
+
+mõlema otsingu tõhusus on tavaliselt O(log n) aga ,halvimal juhul on must punane ikkagi O(log n) aga binaarne puu O(n)
+
+
+3 tasakaalustus
+
+igal sõlmel on värv kas punane või must
+kõik NULL väärtused on mustad
+punasel sõlmel ei ole punast last
+igal NULL väärtusest teel juursõlmele on sama arv musti sõlmesid
+
+kui neid reegleid rikutakse siis nii öelda keeratakse uus juursõlm nii, et reeglid kehtiks.

@@ -1,0 +1,55 @@
+Binaarpuude tasakaalustamise võrdlus
+
+AVL puu
+kasutab alampuude kõrguste vahel ,et tasakaalustada
+
+
+Eelis
+ Tagab range tasakaalu mis tõstab otsingu kiirust,
+
+Puudus
+Range tasakaalustatus mõjutab sisestamis ja kustutamis operatsioonide kiirust
+
+Optimeerimine Rakenduses
+Sobib hästi rakendustesse, kus otsingud on sagedased ja tasakaal on kriitiline
+
+
+Punane Must Puu
+kasutab Värvireeglit ja ,mustade sõlmede arvu et hoida tasakaalu
+
+Eelised
+Värvireeglide leebus võimaldab kiiremat sisestamis ja kustutamists 
+
+Puudused
+pole alati Rangelt tasakaalus
+
+
+Optimeerimine Rakenduses
+Sobib rakendustesse, kus esineb sagedasi sisestamisi ja kustutamisi, kuid täpne tasakaal pole hädavajalik.
+
+
+Splay puu
+puu hiljuti kasutatud sülm tõstetakse iga operatsiooni järel juureks
+et saaks kiiremljuti kasutatud elementeidele juurdepääs 
+
+Eelis
+Kiire juurdepääs sagedamini kasutatud elemendidele
+
+Puudused
+pole nii tõhus vähem vajatud elemendide korral.
+
+Optimeerimine Rakenduses
+Sobib rakendustesse, kus mõned elemendid on sagedamini kasutatavad kui teised.
+
+
+B puu
+kasutatakse mitmeastmelisi sõlmi ja sorteerituid lehit, et tagada tasakaal.
+
+Eelis
+efektiivne suurte andmehulkade korral.
+
+Puudus
+sisestamise ja kustutamise keerukus on suurem kui teistel binaarpuudel
+
+Optimeerimine Rakenduses
+sobib suurte andmehulkadele, nagu andmebaasid ja failisüsteemids

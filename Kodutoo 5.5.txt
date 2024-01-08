@@ -1,0 +1,20 @@
+1. AVL andmepuu
+
+AVL puu on tasakaalusatud binarse otsingupuu tüüp, kus tasakaalustatus taggatakse
+reegliga kus parem ja vasak alampuu kõrguste vahel on piirang, kus üks pool ei või
+olla pikem kui 1 võrra
+puu otsimis, sisestamis ja kustutamis kiirus on O(log n) ja ruumi komoleksus on O(n)
+
+2. võrdlus must punane puu ja AVL puu
+mõlemal on otsingu, kustutamis ja sisestamis efektiivsus O(log n ) ja maälu kasutamine on O(n)
+mõlemad puud on tasakaalustatud, aga  AVL puul on rangemad tasakaalustamis reeglid.
+
+
+3. rakenduste Eelised
+AVL puu on parem kui otsingutoimingud on sagedased, kui sisestamise ja kustutamine
+on haruldased, kuna siis on rohkem tasakaalustamis operatsioone
+Punane must puu on parem kui kustutamine ja sisestamine on sagedased,
+kuna on vähem tasakaalustamis operatsioone.
+
+
+

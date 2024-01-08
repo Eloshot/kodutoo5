@@ -1,0 +1,17 @@
+def binarypuu(root, key):
+    if root is None:
+        return {"key": key, "left": None, "right": None} #siin loome igale elemendi tema votme vaartuse ja parem ja vasaku vaartusega 
+    else:
+        if root["key"] < key: # kui os suurem siis paneme paremale poole 
+            root["right"] = binarypuu(root["right"], key)
+        else:
+            root["left"] = binarypuu(root["left"], key) # kui vaiksem siis vasakule ppole
+    return root
+   
+root = None
+list = [15,10,20,9,11,16,23]
+
+for i in list:
+    root = binarypuu(root,i)
+    
+print(root)
